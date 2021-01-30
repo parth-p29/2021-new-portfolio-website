@@ -107,7 +107,7 @@ nav{
     display: block;
     width: 0;
     height: 2px;
-    background: rgb(209, 93, 93);
+    background: #1C77FF;
     transition: width 0.3s;
 
 
