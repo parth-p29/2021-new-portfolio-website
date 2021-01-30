@@ -6,7 +6,6 @@ let index = 0;
 let current_text = '';
 let letter = '';
 
-
 function reverseType(){
 
     
@@ -17,26 +16,36 @@ function reverseType(){
 
 }
 
+function eraseLastLetter(curr_word){
 
-(function type(){  //self evoked function
+    let reduced_word = "";
+    for(i = 0; i < curr_word.length-1; i++){
 
-    if (count === texts.length){
+        reduced_word += curr_word[i];
 
-        count = 0;
     }
+    return reduced_word;
+}
+
+
+
+setInterval(() => {
+    
 
     current_text = texts[count];
     letter = current_text.slice(0, ++index);
     
     document.querySelector('.typing').textContent = letter;
-    if(letter.length == current_text.length){
+    
+    if(document.querySelector('.typing').textContent== current_text){
+
+        //once word is complete, I need to add code to make it backspace the word
+    
 
         count++
         index = 0;
 
     }
 
-    setTimeout(type, 300);
 
-
-}());
+}, 600);
