@@ -4,34 +4,56 @@ header{
     margin: 300px;
     display: flex;
     position: absolute;
+    animation: dropeffect 0.8s ease;
+}
+
+@keyframes dropeffect{
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100%{
+
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 
 header a{
 
     text-decoration:none;
-    color: black;
     opacity: 70%;
-    transition: ease-in 0.8s;
+    transition: ease-in-out 0.2s;
     color: #1C77FF;
+    
+
 
 }
-img{
+
+
+header img{
 
     border-radius: 50%;
     width: 200px;
     height: 200px;
-
+    transition: ease-in-out 0.8s;
+ 
 }
 
 #image{
-    margin-left: 10px;
+    margin-left: 18px;
+    margin-top: 15px;
 }
+
 
 header h1{
 
     margin-bottom: 30px;
-    color: rgb(46, 46, 46);
+    color: rgb(73, 73, 73);
 }
 
 header h3{
