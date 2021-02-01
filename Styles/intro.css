@@ -1,0 +1,40 @@
+
+
+header{
+    margin: 300px;
+    display: flex;
+    position: absolute;
+}
+
+
+header a{
+
+    text-decoration:none;
+    color: black;
+    opacity: 70%;
+    transition: ease-in 0.8s;
+    color: #1C77FF;
+
+}
+img{
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+#image{
+    margin-right: 10px;
+}
+
+header h1{
+
+    margin-bottom: 30px;
+    color: rgb(83, 82, 82);
+}
+
+header h3{
+
+    margin: 10px 0px 10px 0px;
+}

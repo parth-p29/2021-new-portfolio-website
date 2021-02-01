@@ -1,35 +1,53 @@
 
-const texts = ['Software Developer', 'Leader', 'Designer', 'Problem-Solver', "Astronomer"];
+const texts = ['Software Developer', 'Leader', 'Designer', 'Problem-Solver'];
 
 let count = 0;
 let index = 0;
-let current_text = '';
+let current_word = '';
 let letter = '';
-let rev_index = -1;
+let rev_index = 0;
 
-function reverseType(){
 
+function type(){
+
+
+    current_word = texts[count];
+
+    rev_index = current_word.length;
     
-    letter = current_text.slice(current_text.length, --index);
-    document.querySelector(".typing").textContent = letter;
+    letter = current_word.substring(0, index++);
 
-   // if (letter.length ==)
+    document.querySelector('.typing').textContent = letter;
 
-}
+    if (letter == current_word){
 
-function eraseLastLetter(curr_word){
+        count++;
+        
+        if (count == 4){
+            count = 0;
+        }
 
-    let reduced_word = "";
-    for(i = 0; i < curr_word.length-1; i++){
-
-        reduced_word += curr_word[i];
-
+        
+        index = 0;
     }
-    return reduced_word;
+
+    setTimeout(type, 350);
+
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+
+    setTimeout(type, 300);
+
+})
 
 
+
+
+
+
+
+/*
 setInterval(() => {
     
 
@@ -49,4 +67,5 @@ setInterval(() => {
     }
 
 
-}, 300);
+}, 400);
+*/
