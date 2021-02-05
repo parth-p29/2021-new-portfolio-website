@@ -1,0 +1,52 @@
+
+#experience{
+
+    position: absolute;
+    top: 120%;
+    width: 50%;
+    margin: 0px 350px 250px 350px ;
+
+}
+
+#experience img{
+
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+#experience h1{
+
+    margin-bottom: 60px;
+    color: rgb(73, 73, 73);
+}
+
+.company{
+
+    background-color: #09193D;
+    padding: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 40px;
+    transition: transform 0.6s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.vex{
+    background-color: #DA262F;
+}
+
+.vex image{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+
+.company:hover{
+
+    transform: translateY(-12px);
+
+}
+

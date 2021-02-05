@@ -1,5 +1,5 @@
 
-const texts = ['Software Developer', 'Leader', 'Designer', 'Problem-Solver'];
+const texts = ['software developer....', 'leader....', 'designer....', 'problem-solver....'];
 
 let count = 0;
 let index = 0;

@@ -1,27 +1,20 @@
 
 
 header{
-    margin: 300px;
+   /* margin: 250px 300px 300px 300px;*/
     display: flex;
     position: absolute;
+    width: 100%;
+    top: 33%;
+    justify-content: center;
     animation: dropeffect 0.8s ease;
+
 }
 
-@keyframes dropeffect{
+#text{
 
-    0%{
-
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-
-    100%{
-
-        opacity: 1;
-        transform: translateY(0px);
-    }
+    width: 50%;
 }
-
 
 header a{
 
@@ -29,9 +22,6 @@ header a{
     opacity: 70%;
     transition: ease-in-out 0.2s;
     color: #1C77FF;
-    
-
-
 }
 
 
@@ -40,7 +30,7 @@ header img{
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    transition: ease-in-out 0.8s;
+    transition: onmouseover 0.8s ease;
  
 }
 
@@ -59,4 +49,67 @@ header h1{
 header h3{
 
     margin: 10px 0px 10px 0px;
+    opacity: 70%;
+}
+
+#more-info{
+    opacity: 70%;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 78%;
+    text-align: center;
+    animation: dropeffect 0.8s ease;
+    font-size: 15px;
+    
+}
+
+#more-info img{
+    margin-top: 15px;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+
+@keyframes dropeffect{
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100%{
+
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(10px);
+    }
+    60% {
+      transform: translateY(10px);
+    }
+  }
+
+
+  
+@media all and (min-width: 1600px){
+
+    header{
+        top: 36%;
+    }
+
+    #text{
+        width: 43%;
+    }
 }
