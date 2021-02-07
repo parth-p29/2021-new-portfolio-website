@@ -30,8 +30,6 @@ header img{
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    transition: onmouseover 0.8s ease;
- 
 }
 
 #image{
@@ -61,11 +59,15 @@ header h3{
     text-align: center;
     animation: dropeffect 0.8s ease;
     font-size: 15px;
-    
+}
+
+#more-info p{
+    opacity: 70%;
 }
 
 #more-info img{
     margin-top: 15px;
+    opacity: 70%;
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
