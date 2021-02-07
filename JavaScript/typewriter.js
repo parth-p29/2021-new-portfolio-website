@@ -8,37 +8,37 @@ var typewriter = new Typewriter(app, {
 typewriter
   .pauseFor(800)
   .typeString('software developer.')
-  .pauseFor(1500)
+  .pauseFor(2000)
   .deleteChars(19)
-  .pauseFor(1000)
+  .pauseFor(1300)
 
   //
 
   .typeString('problem-solver.')
-  .pauseFor(1500)
+  .pauseFor(2000)
   .deleteChars(15)
-  .pauseFor(1000)
+  .pauseFor(1300)
 
   //
 
   .typeString('leader.')
-  .pauseFor(1500)
+  .pauseFor(2000)
   .deleteChars(7)
-  .pauseFor(1000)
+  .pauseFor(1500)
 
   //
 
   .typeString('life-long learner.')
-  .pauseFor(1500)
+  .pauseFor(2000)
   .deleteChars(18)
-  .pauseFor(1000)
+  .pauseFor(1300)
 
   //
 
   .typeString('designer.')
-  .pauseFor(1500)
+  .pauseFor(2000)
   .deleteChars(9)
-  .pauseFor(1000)
+  .pauseFor(1300)
 
 
   
