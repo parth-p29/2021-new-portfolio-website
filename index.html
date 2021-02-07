@@ -57,13 +57,12 @@
 
                 <h3>I'm a software developer who is studying Systems Design Engineering at the <a href="https://uwaterloo.ca/">University of Waterloo</a></h3>
 
-                <h3>I have a vast interest in software systems and want to continue pursing a career in development</h3>
+                <h3>I have a vast interest in software systems and aspire to create viable solutions to address the problems faced by various people</h3>
 
                 <h3>Previously a Software Developer @ <a href="https://www.ceridian.com/">Ceridian</a></h3>
 
             </div>
 
-   
         </div>
 
         <div id="image">
@@ -71,12 +70,7 @@
 
             <img src='Photos/baby.jpg' onmouseover="this.src='Photos/parthpic.jpg';" onmouseout="this.src='Photos/baby.jpg';" />
 
-
-
         </div>
-
-        
-
 
     </header>
 
@@ -84,7 +78,6 @@
 
         <p>check out my work below.</p>
         <img src="Photos/down-arrow.png" />
-
 
     </div>
 
@@ -94,23 +87,35 @@
             
             <h1>experience.</h1>
 
-            <div class="company">
+            <section data-modal="modal1">
 
-                <img src="Photos/CeridianLogo.jpg" />
+                <div class="company">
 
-            </div>
+                    <img src="Photos/CeridianLogo.jpg" />
 
-            <div class="company vex">
+                </div>
 
-                <img src="Photos/Bettervexlogo.jpg" />
+            </section> 
 
-            </div>
 
-            <div class="company csclub">
+            <section data-modal="modal2">
 
-                <img src="Photos/csclubl.png" />
+                <div class="company vex">
 
-            </div>
+                    <img src="Photos/Bettervexlogo.jpg" />
+        
+                </div>
+            </section>
+
+
+            <section data-modal="modal3">
+
+                <div class="company csclub">
+
+                    <img src="Photos/csclubl.png" />
+
+                </div>
+            </section>
         
 
         </div>
@@ -120,17 +125,55 @@
 
 
 
+    
+    <div class="modal" id="modal1">
+
+        <div class="modal-content">
+
+            <h3>Vex Robotics</h3>
+            <hr>
+
+            <div class="image-container">
+
+                <div class="modal-image vfade1">
+                    <img src="slidephotos/leviathan.png" />
+                </div>
+
+
+                <div class="modal-image vfade2">
+                    <img src="slidephotos/r1.JPG" />
+                </div>
+
+
+                <div class="modal-image vfade3">
+                    <img src="slidephotos/vexprovs.png" />
+                </div>
+
+
+                <div class="modal-image vfade4">
+                    <img src="slidephotos/vexworldsgroup.png" />
+                </div>
+
+            </div>
+
+            <button class="close-modal">Close</button>
+
+        </div>
+
+
+    </div>
+
+
+
     <footer>
 
 
     </footer>
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
     <script src="JavaScript/typewriter.js"></script>
-    
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-
+    <script src="JavaScript/modal.js"></script>
     <script>
            
         particlesJS.load('particles-js', 'particle.json', function() {
@@ -138,5 +181,6 @@
         });
 
     </script>
+
 </body>
 </html>
