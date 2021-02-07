@@ -30,7 +30,7 @@ typewriter
 
   .typeString('life-long learner.')
   .pauseFor(1500)
-  .deleteChars(39)
+  .deleteChars(18)
   .pauseFor(1000)
 
   //
