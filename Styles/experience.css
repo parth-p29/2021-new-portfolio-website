@@ -24,14 +24,12 @@
     
 }
 
-section{
-    cursor: pointer;
-    transition: ease-out 0.3s;
-}
+
 
 .company{
 
     background-color: #09193D;
+    cursor: pointer;
     margin: auto;
     width: 50%;
     padding: 30px;
