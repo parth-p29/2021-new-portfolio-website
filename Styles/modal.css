@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(10, 10, 10, 0.9);
+    background: rgba(15, 15, 15, 0.85);
     z-index: 2;
     display: none;
     justify-content: center;
@@ -26,7 +26,7 @@
 hr{
     margin: 20px 30px 30px 30px;
     border: 0.35px solid rgb(0, 0, 0);
-    opacity: 20%;
+    opacity: 15%;
 }
 
 .modal-content .close-modal{
@@ -56,12 +56,42 @@ hr{
     opacity: 75%;
 }
 
+.modal-info p{
+
+    font-size: 15px;
+    opacity: 75%;
+}
+
+.modal-info li{
+
+    margin: 0px 60px 10px 60px;
+    font-size: 15px;
+    opacity: 75%;
+}
+
 
 .close-modal:hover{
     
     background-color: #1C77FF;
     color: rgb(255, 255, 255);
     
+}
+
+.modal-header{
+
+    display: flex;
+    align-items: center;
+}
+
+
+.company-logo img {
+
+    width: 52px;
+    height: 52px;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 215px;
 }
 
 @keyframes section{
