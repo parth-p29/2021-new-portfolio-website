@@ -55,7 +55,7 @@ header h3{
     position: absolute;
     width: 100%;
     margin: auto;
-    top: 78%;
+    top: 83%;
     text-align: center;
     animation: dropeffect 0.8s ease;
     font-size: 15px;
@@ -113,6 +113,9 @@ header h3{
      #more-info{
 
         top: 73%;
+     }
+     #image{
+        margin-left: 2%;
      }
 
     #text{

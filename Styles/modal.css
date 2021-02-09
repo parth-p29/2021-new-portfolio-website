@@ -106,7 +106,7 @@ hr{
 .skill-tags li{
 
     font-size: 13px;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -118,7 +118,7 @@ hr{
 }
 
 .close{
-    margin-top: 8px;
+    margin-top: 5px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -132,5 +132,27 @@ hr{
 
     to{
         opacity: 1;
+    }
+}
+
+
+@media all and (min-width: 1600px){
+
+    .modal-content p {
+
+        font-size: 20px;
+    }
+
+    .modal-content h5 {
+        font-size: 25px;
+
+    }
+
+    .modal-info p{
+        font-size: 18px;
+    }   
+
+    .modal-info li{
+        font-size: 18px;
     }
 }
