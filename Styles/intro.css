@@ -121,4 +121,8 @@ header h3{
     #text{
         width: 43%;
     }
+
+    #more-info{
+        top: 86%;
+    }
 }
