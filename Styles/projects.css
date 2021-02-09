@@ -70,3 +70,22 @@
 .project-box:hover{
     transform: translateY(-8px);
 }
+
+
+
+
+
+@media all and (min-width: 1600px){
+
+    #projects{
+
+        top: 220%;
+    }
+    .project-box{
+        margin-bottom: 50px;
+    }
+
+    .col1{
+        margin-right: 50px;
+    }
+}
