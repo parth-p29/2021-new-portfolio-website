@@ -1,7 +1,7 @@
 #projects{
 
     position: absolute;
-    top: 240%;
+    top: 205%;
     width: 100%;
     animation: dropeffect 0.8s ease;
 }
@@ -45,7 +45,7 @@
     height: 370px;
     border-radius: 5%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     display:flex;
     justify-content: center;
     align-items: center;

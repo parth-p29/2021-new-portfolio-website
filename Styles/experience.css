@@ -52,7 +52,7 @@
 }
 
 .company:hover{
-    transform: translateY(-10px);
+    transform: translateY(-12px);
 }
 
 @media all and (min-width: 1600px){

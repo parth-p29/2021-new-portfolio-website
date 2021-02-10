@@ -10,35 +10,35 @@ typewriter
   .typeString('software developer.')
   .pauseFor(2000)
   .deleteChars(19)
-  .pauseFor(1300)
+  .pauseFor(2000)
 
   //
 
   .typeString('problem-solver.')
   .pauseFor(2000)
   .deleteChars(15)
-  .pauseFor(1300)
+  .pauseFor(2000)
 
   //
 
   .typeString('leader.')
   .pauseFor(2000)
   .deleteChars(7)
-  .pauseFor(1500)
+  .pauseFor(2000)
 
   //
 
   .typeString('life-long learner.')
   .pauseFor(2000)
   .deleteChars(18)
-  .pauseFor(1300)
+  .pauseFor(2000)
 
   //
 
   .typeString('designer.')
   .pauseFor(2000)
   .deleteChars(9)
-  .pauseFor(1300)
+  .pauseFor(2000)
 
 
   
