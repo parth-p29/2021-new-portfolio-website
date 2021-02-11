@@ -43,14 +43,14 @@ nav{
 .logo {
 
     flex: 1.5;
+
 }
 
+.logo img{
 
-.logo p{
-    font-size: 15px;
-    font-family: 'Roboto Slab', serif;
-    color: black;
-    opacity: 70%;
+    width: 50px;
+    height: auto;
+
 }
 
 .typeeffect{

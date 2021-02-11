@@ -6,41 +6,33 @@ var typewriter = new Typewriter(app, {
 });
  
 typewriter
-  .pauseFor(800)
-  .typeString('software developer.')
+  .typeString('Parth!')
   .pauseFor(2000)
-  .deleteChars(19)
-  .pauseFor(2000)
-
-  //
-
-  .typeString('problem-solver.')
-  .pauseFor(2000)
-  .deleteChars(15)
+  .deleteChars(6)
   .pauseFor(2000)
 
   //
 
-  .typeString('leader.')
+  .typeString('a software developer.')
   .pauseFor(2000)
-  .deleteChars(7)
-  .pauseFor(2000)
-
-  //
-
-  .typeString('life-long learner.')
-  .pauseFor(2000)
-  .deleteChars(18)
+  .deleteChars(21)
   .pauseFor(2000)
 
   //
 
-  .typeString('designer.')
+  .typeString('a life-long learner.')
   .pauseFor(2000)
-  .deleteChars(9)
+  .deleteChars(20)
   .pauseFor(2000)
 
+  //
 
+  .typeString('a problem-solver.')
+  .pauseFor(2000)
+  .deleteChars(17)
+  .pauseFor(2000)
+
+  //
   
   .start();
 
