@@ -39,9 +39,9 @@ header img{
 
 
 header h1{
-
+    opacity: 70%;
     margin-bottom: 13px;
-    color: rgb(73, 73, 73);
+    color: #383838;
 }
 
 header h3{
@@ -55,7 +55,7 @@ header h3{
     position: absolute;
     width: 100%;
     margin: auto;
-    top: 83%;
+    top: 82%;
     text-align: center;
     animation: dropeffect 0.8s ease;
     font-size: 15px;

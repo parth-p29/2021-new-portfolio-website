@@ -8,7 +8,7 @@
 
 #particles-js{
 
-    height: 450vh;
+    height: 470vh;
     width: 100%;
 
 }
@@ -48,7 +48,7 @@ nav{
 
 .logo img{
 
-    width: 50px;
+    width: 30px;
     height: auto;
 
 }
@@ -59,15 +59,6 @@ nav{
 
 }
 
-
-@keyframes blink{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 0.9;
-    }
-}
 
 
 .nav-links{
@@ -100,8 +91,6 @@ nav{
     height: 2px;
     background: #1C77FF;
     transition: width 0.3s;
-
-
 }
 
 .links:hover::after{

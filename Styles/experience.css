@@ -14,8 +14,10 @@
 #experience h1{
     margin-left: 25%;
     margin-bottom: 35px;
-    color: rgb(73, 73, 73);    
+    opacity: 70%;
+    color: #383838;    
 }
+
 
 .company{
     background-color: #09193D;
