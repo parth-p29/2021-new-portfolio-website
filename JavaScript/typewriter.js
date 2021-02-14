@@ -9,28 +9,35 @@ typewriter
   .typeString('Parth!')
   .pauseFor(2000)
   .deleteChars(6)
-  .pauseFor(1600)
+  .pauseFor(1200)
 
   //
 
   .typeString('a software developer.')
   .pauseFor(2000)
   .deleteChars(19)
-  .pauseFor(1600)
+  .pauseFor(1200)
 
   //
 
-  .typeString('life-long learner.')
+  .typeString('designer.')
   .pauseFor(2000)
-  .deleteChars(18)
-  .pauseFor(1600)
+  .deleteChars(11)
+  .pauseFor(1200)
 
   //
 
-  .typeString('problem-solver.')
+  .typeString('an explorer.')
   .pauseFor(2000)
-  .deleteChars(17)
-  .pauseFor(1600)
+  .deleteChars(11)
+  .pauseFor(1200)
+
+  //
+
+  .typeString(' problem-solver.')
+  .pauseFor(2000)
+  .deleteChars(19)
+  .pauseFor(1200)
 
   //
   
