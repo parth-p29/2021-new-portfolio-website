@@ -1,0 +1,34 @@
+
+#background-pic img{
+
+    height: 88vh;
+    width: 100%;
+}
+
+#me-pic{
+    position:absolute;
+    top: 120vh;
+
+}
+
+.me{
+
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+
+.me img{
+    height: 450px;
+
+    width: 350px;
+
+    border-radius: 2%;
+}
+
+p{
+    width: 50%;
+}
