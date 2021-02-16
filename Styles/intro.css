@@ -24,17 +24,22 @@ header a{
     color: #1C77FF;
 }
 
-
+/*
 header img{
 
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
+*/
 
+video{
+    width: 280px;
+    height: 280px;
+}
 #image{
     margin-left: 18px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 
