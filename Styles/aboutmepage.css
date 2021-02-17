@@ -1,34 +1,30 @@
 
-#background-pic img{
-
-    height: 88vh;
-    width: 100%;
-}
-
-#me-pic{
-    position:absolute;
-    top: 120vh;
-
-}
 
 .me{
-
+    position: absolute;
+    top: 33%;
     display: flex;
-
     justify-content: center;
     width: 100%;
-    text-align: center;
+
 }
 
 
-.me img{
+.pic img{
     height: 450px;
-
     width: 350px;
-
-    border-radius: 2%;
+    border-radius: 1%;
+    margin: auto;
 }
 
-p{
-    width: 50%;
+
+.info{
+
+    margin-left: 20px;
+    
+}
+
+.info p{
+    width: 45%;
+    text-align: center;
 }
