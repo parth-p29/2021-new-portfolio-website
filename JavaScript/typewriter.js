@@ -12,7 +12,6 @@ typewriter
   .pauseFor(1200)
 
   //
-
   .typeString('a software developer.')
   .pauseFor(2000)
   .deleteChars(19)
