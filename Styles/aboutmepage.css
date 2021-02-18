@@ -9,6 +9,10 @@
 
 }
 
+body{
+    height: 200vh;
+}
+
 .text {
     width: 42%;
     margin-left: 5%;
@@ -16,12 +20,14 @@
 
 .text h1{
     opacity: 80%;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
+
     color: #383838;
 }
 
 .text p{
     opacity: 70%;
+    margin-bottom: 20px;
 }
 
 
@@ -30,4 +36,22 @@
     height:350px;
     width:280px;
     border-radius: 1%;
+}
+
+
+.spacer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    justify-content: center;
+}
+
+hr{
+    margin: 10px 0px 20px 0px;
+    border: 0.2px solid rgb(0, 0, 0);
+    opacity: 25%;
+    width: 75%;
+    
+  
 }
