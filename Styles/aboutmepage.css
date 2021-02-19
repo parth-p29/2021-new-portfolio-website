@@ -10,7 +10,7 @@
 }
 
 body{
-    height: 200vh;
+    height: 250vh;
 }
 
 .text {
@@ -52,11 +52,20 @@ body{
     justify-content: center;
 }
 
+.spacerr{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 193%;
+    justify-content: center;
+}
+
+
 hr{
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     border: 0.2px solid rgb(0, 0, 0);
     opacity: 25%;
-    width: 75%;
+    width: 70%;
     
 }
 
@@ -66,18 +75,21 @@ hr{
     position: absolute;
     top:125%;
     width: 100%;
-    opacity: 70%;
+    opacity: 80%;
 
 }
 
 .row {
     display: flex;
     justify-content: space-evenly;
+    margin: 20px 130px 130px 130px;
 }
 
 .row img{
-    width:48px;
+    width:80px;
     height: auto;
+    transition: width 0.4s ease;
+
 }
 
 .item {
@@ -86,4 +98,9 @@ hr{
 
 .item-text{
     margin-left: 40px
+}
+
+.row img:hover{
+    width:88px;
+    height:auto;
 }
