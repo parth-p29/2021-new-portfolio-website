@@ -10,20 +10,25 @@
 }
 
 body{
-    height: 250vh;
+    height: 350vh;
 }
 
 .text {
-    width: 35%;
-    margin-left: 5%;
+    width: 560px;
+    margin-left: 9%;
 
 }
 
 .text h1{
     opacity: 80%;
     margin-bottom: 20px;
-
     color: #383838;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
 }
 
 .text p{
@@ -37,9 +42,9 @@ body{
     text-decoration: none;
 }
 
-.me img{
-    height:315px;
-    width:270px;
+.pic img{
+    height:300px;
+    width:260px;
     border-radius: 1%;
 }
 
@@ -103,4 +108,21 @@ hr{
 .row img:hover{
     width:88px;
     height:auto;
+}
+
+.row h3{
+    opacity: 70%;
+    font-size: 19px;
+}
+.row p{
+    width: 190px;
+    opacity: 70%;
+    margin-top: 6px;
+    font-size:13px;
+}
+
+
+#photo-wrapper{
+    position: absolute;
+    top: 220%;
 }
