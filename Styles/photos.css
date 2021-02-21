@@ -1,5 +1,5 @@
 body{
-    height: 500vh;
+    height: 600vh;
 }
 
 #photo-wrapper{
@@ -25,7 +25,7 @@ body{
 }
 
 .rows img:hover{
-    width:21%;
+    width:23%;
     height:auto;
 }
 
@@ -39,6 +39,16 @@ body{
 }
 
 .rows video:hover{
-    width:21%;
+    width:19%;
     height:auto;
+}
+
+.pushup{
+    margin: 40px 20px 0px 20px; 
+}
+
+.landscape img{
+    width: 65%;
+    height: 65%;
+    margin: 40px 20px 0px 20px;
 }

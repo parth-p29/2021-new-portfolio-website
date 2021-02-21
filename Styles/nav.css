@@ -3,14 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;   
-
 }
 
 #particles-js{
 
-    height: 470vh;
+    height: 400vh;
     width: 100%;
-
 }
 
 body{

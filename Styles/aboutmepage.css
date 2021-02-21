@@ -9,10 +9,6 @@
 
 }
 
-body{
-    height: 340vh;
-}
-
 .text {
     width: 560px;
     margin-left: 9%;
@@ -25,6 +21,9 @@ body{
     color: #383838;
 }
 
+body{
+    height: 363vh;
+}
 
 .content{
     display: flex;
@@ -136,6 +135,7 @@ footer{
     position: absolute;
     top: 318%;
     width: 100%;
+    
 }
 
 footer h1{
