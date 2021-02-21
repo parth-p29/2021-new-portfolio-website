@@ -5,11 +5,12 @@ header{
     display: flex;
     position: absolute;
     width: 100%;
-    top: 33%;
+    top: 33%; /*33%*/
     justify-content: center;
     animation: dropeffect 0.8s ease;
 
 }
+
 
 #text{
 

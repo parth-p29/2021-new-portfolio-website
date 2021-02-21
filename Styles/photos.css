@@ -1,0 +1,44 @@
+body{
+    height: 500vh;
+}
+
+#photo-wrapper{
+    position: absolute;
+    top: 19%;
+}
+
+.landscape{
+    display: flex;
+    justify-content: center;
+}
+
+.rows{
+    display: flex;
+    justify-content: center;
+}
+
+.rows img{
+    width: 20%;
+    height: 60%;
+    margin: 40px 20px 0px 20px;
+    transition: width 0.5s ease;
+}
+
+.rows img:hover{
+    width:21%;
+    height:auto;
+}
+
+.rows video{    
+
+    width: 16%;
+    height: auto;
+    margin: 40px 20px 0px 20px;
+    transition: width 0.5s ease;
+
+}
+
+.rows video:hover{
+    width:21%;
+    height:auto;
+}
