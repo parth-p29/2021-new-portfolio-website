@@ -15,9 +15,9 @@
 
 .modal-content{
 
-    height: 510px;
+    height: 480px;
     background-color: white;
-    width: 50%;
+    width: 65%;
     border-radius: 5px;
 
     
@@ -91,7 +91,7 @@ hr{
     height: 52px;
     border-radius: 5%;
     margin-top: 30px;
-    margin-left: 215px;
+    margin-left: 455px;
     margin-bottom: 13px;
 }
 
