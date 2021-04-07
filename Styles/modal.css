@@ -155,4 +155,7 @@ hr{
     .modal-info li{
         font-size: 18px;
     }
+    .modal-content{
+        height: 510px;
+    }
 }
