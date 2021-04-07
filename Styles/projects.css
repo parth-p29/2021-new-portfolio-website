@@ -73,8 +73,7 @@
 @media all and (min-width: 1600px){
 
     #projects{
-
-        top: 220%;
+        top: 180%;
     }
     .project-box{
         margin-bottom: 50px;

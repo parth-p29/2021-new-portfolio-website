@@ -76,3 +76,10 @@ footer span{
 .copyright a:hover{
     color: #1C77FF;
 }
+
+@media all and (min-width: 1600px){
+
+    #footer{
+        top: 330%;
+    }
+}
