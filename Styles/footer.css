@@ -82,4 +82,7 @@ footer span{
     footer{
         top: 300%;
     }
+    #particles-js{
+        height:340vh;
+    }
 }
